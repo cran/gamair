@@ -34,7 +34,7 @@ proposed at first filing of the IPO, and the eventual offer price.}
 Lowry, M. and G.W. Schwert (2002) IPO market cycles: Bubbles or sequential
 learning? The Journal of Finance 67(3), 1171-1198
 
-Wood (2006) Generalized Additive Models: An Introduction With R. CRC
+Wood, S.N. (2006) Generalized Additive Models: An Introduction with R. CRC
 
 }
 

@@ -24,7 +24,7 @@ A data frame with 6 columns and 3780 rows. The columns are:
 
 \references{
 
-Wood (2006) Generalized Additive Models: An Introduction With R
+Wood, S.N. (2006) Generalized Additive Models: An Introduction with R
 
 }
 

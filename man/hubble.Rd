@@ -12,8 +12,8 @@ data(hubble)
 \format{
 A data frame with 3 columns and 24 rows. The columns are:
  \item{Galaxy}{ A (factor) label identifying the galaxy.}
-\item{V}{ The galaxy's relative velocity in kilometres per second.}
-\item{D}{ The galaxy's distance in Mega parsecs. 1 parsec is 3.09e13 km.}
+\item{y}{ The galaxy's relative velocity in kilometres per second.}
+\item{x}{ The galaxy's distance in Mega parsecs. 1 parsec is 3.09e13 km.}
 }
 
 \details{Cepheids are variable stars which have a known relationship between 
@@ -41,7 +41,7 @@ NUCLEAR DECAY: EVIDENCE FOR A YOUNG WORLD
 - IMPACT No. 352 October 2002
 by D. Russell Humphreys, Ph.D.
 
-Wood (2006) Generalized Additive Models: An Introduction With R. CRC
+Wood, S.N. (2006) Generalized Additive Models: An Introduction with R. CRC
 
 }
 

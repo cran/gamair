@@ -39,11 +39,11 @@ temporally structured populations. PhD thesis. University of St Andrews
 Horwood, J. (1993) The Bristol Channel Sole (solea solea (L.)): A fisheries
 case study. Advances in Marine Biology 29, 215-367
 
-Horwood, J. and M.G. Walker (1990) Determinacy of fecundity in Sole (solea
+Horwood, J. and M. Greer Walker (1990) Determinacy of fecundity in Sole (solea
 solea) from the Bristol Channel. Journal of the Marine Biology Association of
 the United Kingdom. 70, 803-813.
 
-Wood (2006) Generalized Additive Models: An Introduction With R. CRC
+Wood (2006) Generalized Additive Models: An Introduction with R. CRC
 
 }
 

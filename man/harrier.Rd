@@ -27,7 +27,7 @@ predator. Web preprint
 
 \references{
 
-Wood (2006) Generalized Additive Models: An Introduction With R. CRC
+Wood, S.N. (2006) Generalized Additive Models: An Introduction with R. CRC
 
 }
 

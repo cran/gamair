@@ -27,7 +27,7 @@ SIO air sampling network. In Trends: A Compedium of Data on Global
 Change. Carbon Dioxide Analyis Center, Oak Ridge National Laboratory,
 U.S. Department of Energy, Oak Ridge Tenn., USA
 
-Wood (2006) Generalized Additive Models: An Introduction With R. CRC
+Wood, S.N. (2006) Generalized Additive Models: An Introduction with R. CRC
 
 }
 

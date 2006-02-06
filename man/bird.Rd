@@ -21,7 +21,7 @@ found (0) breading in this tetrad, or was the tetrad not visited (\code{NA}). }
 
 \details{At least 6 tetrads from each 10km square were visited, to establish
 whether each species was breeding there, or not. Each Tetrad was visited twice
-for 1 one hour each visit. These data are not
+for one hour each visit. These data are not
 definitive: at time of writing the fieldwork was not quite complete.
 
 The data were kindly supplied by Jose Pedro Granadeiro.
@@ -33,7 +33,7 @@ The Atlas of the Portuguese Breeding Birds.
 
 \references{
 
-Wood (2006) Generalized Additive Models: An Introduction With R
+Wood, S.N. (2006) Generalized Additive Models: An Introduction with R
 
 }
 

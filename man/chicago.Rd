@@ -30,7 +30,7 @@ Roger D. Peng, Leah J. Welty and Aiden McDermott. R package NMMAPSdata.
 \references{
 Peng, R.D. and Welty, L.J. (2004) The NMMAPSdata package. R News 4(2).
 
-Wood (2006) Generalized Additive Models: An Introduction With R
+Wood, S.N. (2006) Generalized Additive Models: An Introduction with R
 
 \url{http://www.ihapss.jhsph.edu/data/NMMAPS/R/} 
 }

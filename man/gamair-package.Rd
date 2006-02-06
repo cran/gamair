@@ -3,11 +3,11 @@
 \alias{gamair}
 \docType{package}
 \title{
-Data for `GAMs: an introduction with R'
+Data for `GAMs: An Introduction with R'
 }
 \description{
 This package contains the data sets used in the book
-\emph{Generalized Additive Models: An Introduction With R}, which covers linear and
+\emph{Generalized Additive Models: An Introduction with R}, which covers linear and
 generalized linear models, GAMs as implemented in package \code{mgcv} and
 mixed model extensions of these.
 }
@@ -54,7 +54,7 @@ Maintainer: Simon Wood <simon@r-project.org>
 
 }
 \references{
-Wood, S.N. (2006) \emph{Generalized Additive Models: an introduction with R}, CRC
+Wood, S.N. (2006) \emph{Generalized Additive Models: An Introduction with R}, CRC
 }
 \keyword{ package }
 \keyword{data}
