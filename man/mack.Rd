@@ -35,7 +35,7 @@ eggs.
 
 \item{temp.20m}{The temperature 20m down at the sampling location.}
 
-\item{net.apeture}{The diameter of the sampling net in metres.}
+\item{net.area}{The area of the sampling net in square metres.}
 
 \item{country}{A code identifying the country responsible for the boat that took  this sample.}
 
