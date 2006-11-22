@@ -1,0 +1,16 @@
+citHeader("To cite gamair in publications use:")
+
+citEntry(entry="Book",
+         title = "Generalized Additive Models: An Introduction with R",
+         author = as.person("S. N. Wood"),
+	 publisher = "Chapman & Hall/CRC",
+         edition = "First",
+         address      = "Boca Raton, Florida",
+         year         = 2006,
+         note         = "ISBN 1-58488-474-6",
+         
+         textVersion = 
+         paste("Wood, S.N. (2006)", 
+               "Generalized Additive Models: An Introduction with R",
+               "Chapman & Hall/CRC, Boca Raton, Florida. ISBN 1-58488-474-6")
+)
