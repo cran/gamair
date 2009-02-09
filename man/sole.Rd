@@ -14,6 +14,7 @@ data(sole)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 7 columns and 1575 rows. The columns are:
+\itemize{
 \item{la}{latitude of sampling station}
 \item{lo}{longitude of sampling station}
 \item{t}{time of sampling station: actually time of midpoint of the cruise on
@@ -23,7 +24,7 @@ which this sample was taken. Measured in Julian days (days since January 1st).}
 \item{a.0}{lower age limit for the stage (i.e. age of youngest possible egg in
 this sample).}
 \item{a.1}{upper age limit of this stage (i.e. age of oldest possible egg in sample).}
-}
+}}
 
 \source{ 
 

@@ -10,7 +10,7 @@ data(mack)
 %- maybe also `usage' for other objects documented here.
 \format{ A data frame with 16 columns. Each row corresponds to one sample of 
 eggs. 
- 
+ \itemize{
 \item{egg.count}{The number of stage I eggs in this sample.}
 
 \item{egg.dens}{The number of stage I eggs per square metre of sea surface, produced per day. This is calculated from \code{egg.count} and other information about sampling net size, and egg stage duration.}
@@ -43,7 +43,7 @@ eggs.
 
 \item{vessel.haul}{A code uniquely identifying this sample, given that the vessel is known.}
 
-  
+}
 }
 \details{ At each of a number of stations located as defined in \code{lon}
 and \code{lat}, mackerel eggs were sampled by hauling a fine net up from deep below the sea surface to the sea surface. The egg count data are obtained from the resulting samples, and these have been converted to (stage I) eggs produced per metre squared per day - the egg density data. Other possibly useful predictor variable information has been recorded, along with identification information, and some information that is probably useless!  

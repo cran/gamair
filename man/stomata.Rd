@@ -10,10 +10,11 @@ data(stomata)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 3 columns and 24 rows. The columns are:
+\itemize{
  \item{area}{mean stomatal area.}
 \item{C02}{label for which C02 treatment the measurement relates to.}
 \item{tree}{label for individual tree.}
-}
+}}
 
 \details{The context for these simulated data is given in section 6.1 of 
 the source book.

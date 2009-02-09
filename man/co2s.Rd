@@ -10,10 +10,11 @@ data(co2s)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 3 columns and 507 rows. The columns are:
+\itemize{
 \item{co2}{atmospheric CO2 concentration in parts per million}
 \item{c.month}{cumulative number of months since Jan 1957}
 \item{month}{month of year}
-}
+}}
 
 
 \source{

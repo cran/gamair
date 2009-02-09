@@ -11,6 +11,7 @@ data(mackp)
 \format{
  A data frame with 5 columns. Each row corresponds to one spatial location within the survey area. 
  The columns are as follows:
+\itemize{
 \item{lon}{Longitude of the gridpoint in degrees east}
 
 \item{lat}{Latitude of the gridpoint in degrees north.}
@@ -28,7 +29,7 @@ data(mackp)
 \item{area.index}{ An indexing vector that enables straightforward copying of
 the other variables into a matrix suitable for plotting against longitude and
 lattitude using \code{image()}. See the example below.}
-}
+}}
 
 \details{ The grid is defined on a series of 1/4 degree lon-lat squares.
 }

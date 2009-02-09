@@ -10,9 +10,10 @@ data(blowfly)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 2 columns and 180 rows. The columns are:
+\itemize{
 \item{pop}{Counts (!) of the population of adult Blowflies in one of the experiments.}
 \item{day}{Day of experiment.}
-}
+}}
 
 \details{The population counts are actually obtained by counting dead
 blowflies and back calculating.

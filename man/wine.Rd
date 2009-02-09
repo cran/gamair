@@ -11,6 +11,7 @@ data(wine)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 7 columns and 47 rows. The columns are:
+\itemize{
 \item{year}{year of production}
 \item{price}{average price of the wines as a percentage of the 1961 price.}
 \item{h.rain}{mm of rain in the harvest month.}
@@ -18,7 +19,7 @@ A data frame with 7 columns and 47 rows. The columns are:
 \item{w.rain}{mm of rain in the winter preceding harvest.}
 \item{h.temp}{average temperature (C) at harvest.}
 \item{parker}{a rating of the wine quality (see source for details).}
-}
+}}
 
 \source{ 
 

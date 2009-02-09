@@ -11,10 +11,11 @@ data(hubble)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 3 columns and 24 rows. The columns are:
+\itemize{
  \item{Galaxy}{ A (factor) label identifying the galaxy.}
 \item{y}{ The galaxy's relative velocity in kilometres per second.}
 \item{x}{ The galaxy's distance in Mega parsecs. 1 parsec is 3.09e13 km.}
-}
+}}
 
 \details{Cepheids are variable stars which have a known relationship between 
 brightness and period. Hence the distance to galaxies containing these stars

@@ -9,13 +9,14 @@ data(cairo)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 6 columns and 3780 rows. The columns are:
+\itemize{
 \item{month}{month of year from 1 to 12.}
 \item{day.of.month}{day of month, from 1 to 31.}
 \item{year}{Year, starting 1995.}
 \item{temp}{Average temperature (F).}
 \item{day.of.year}{Day of year from 1 to 366.}
 \item{time}{Number of days since 1st Jan 1995.}
-}
+}}
 
 
 \source{

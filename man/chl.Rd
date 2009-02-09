@@ -13,6 +13,7 @@ data(chl)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 6 columns and 13840 rows. The columns are:
+\itemize{
 \item{lon}{longitude}
 \item{lat}{latitude}
 \item{jul.day}{Julian day (i.e. day of year starting at Jan 1st.)}
@@ -20,7 +21,7 @@ A data frame with 6 columns and 13840 rows. The columns are:
 \item{chl}{direct chlorophyll concentration measured at given location from
 a bottle sample.}
 \item{chl.sw}{chl. conc. as measured by Seawifs Satellite}
-}
+}}
 
 
 \source{

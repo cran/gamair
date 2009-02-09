@@ -12,6 +12,7 @@ data(ipo)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 6 columns and 156 rows. The columns are:
+\itemize{
 \item{n.ipo}{number of initial pubilc offerings each month.}
 \item{ir}{the average initial return (volume weighted): this is the percentage
 difference between the offer proce of shares and the price after the first day
@@ -21,7 +22,7 @@ proposed at first filing of the IPO, and the eventual offer price.}
 \item{reg.t}{the average time between filing and offer.}
 \item{t}{time, in months.}
 \item{n.ipo}{month of the year (1 = January).}
-}
+}}
 
 \source{ 
 

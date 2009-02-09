@@ -11,9 +11,10 @@ data(harrier)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 2 columns and 37 rows. The columns are:
+\itemize{
 \item{Grouse.Density}{Density of Grouse per square kilometre.}
 \item{Consumption.Rate}{Number of Grouse consumed per Hen Harrier per day.}
-}
+}}
 
 \details{Data have been read from Figure 1 of Asseburg et al. (2005)}
 

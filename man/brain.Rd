@@ -13,6 +13,7 @@ data(brain)
 \format{
 A data frame with 5 columns and 1567 rows. Each row refers to one `voxel' of
 the image. The columns are:
+\itemize{
  \item{X}{ voxel position on horizontal axis.}
 \item{Y}{ voxel position on vertical axis.}
 \item{medFPQ}{ median of three replicate `Fundamental 
@@ -25,7 +26,7 @@ region of interest; \code{2} is the region activated by the experimental
 stimulus; \code{NA} denotes a voxel with no allocation.}
 \item{meanTheta}{mean phase shift at the Voxel, over three measurments.}
 }
-
+}
 \details{ See the source article for fuller details.
 }
  

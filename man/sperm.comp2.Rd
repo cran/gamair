@@ -11,6 +11,7 @@ data(sperm.comp2)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 10 columns and 24 rows. The columns are:
+\itemize{
  \item{pair}{ an identifier for the couple. These labels correspond to those
  given in \code{\link{sperm.comp1}}.}
 \item{n}{ the number of copulations over which the average sperm count has
@@ -23,7 +24,7 @@ been calculated.}
 \item{m.height}{height of the male, in cm.}
 \item{m.weight}{weight of the male, in kg.}
 \item{m.vol}{volume of one male teste in cubic cm.}
-}
+}}
 
 \details{ In the source article, these data are used to argue that males
 invest more reproductive effort in heavier females, on the basis of regression

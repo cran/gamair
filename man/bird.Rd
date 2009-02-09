@@ -10,6 +10,7 @@ data(bird)
 \format{
 A data frame with 6 columns and 25100 rows. Each row refers to one 2km by 2km
 square (tetrad). The columns are:
+\itemize{
 \item{QUADRICULA}{An identifier for the 10km by 10km square that this tetrad
 belongs to.}
 \item{crestlark}{Were crested lark (or possibly thekla lark!) found (1), not
@@ -17,7 +18,7 @@ found (0) breading in this tetrad, or was the tetrad not visited (\code{NA}). }
 \item{linnet}{As \code{crestlark}, but for linnet.}
 \item{x}{location of tetrad (km east of an origin).}
 \item{y}{location of tetrad (km north of an origin).}
-}
+}}
 
 \details{At least 6 tetrads from each 10km square were visited, to establish
 whether each species was breeding there, or not. Each Tetrad was visited twice
