@@ -3,13 +3,17 @@
 \alias{gamair}
 \docType{package}
 \title{
-Data for `GAMs: An Introduction with R'
+Data + scripts for `GAMs: An Introduction with R'
 }
 \description{
 This package contains the data sets used in the book
 \emph{Generalized Additive Models: An Introduction with R}, which covers linear and
 generalized linear models, GAMs as implemented in package \code{mgcv} and
 mixed model extensions of these.
+
+The script files for the book can be found in the 'scripts' folder of 
+the 'inst' folder of the source package. They have been modified slightly to 
+work with recent versions of mgcv (e.g. >= 1.7-0).
 }
 \details{
 

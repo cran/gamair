@@ -181,16 +181,16 @@ b <- glmmPQL(eggs ~ offset(off)+lo+la+t+I(lo*la)+I(lo^2)+
 summary(b)
 
 b1<-update(b,~.-I(lo*la*t))
-anova(b1,type="marginal") 
+summary(b1) 
 
 b2<-update(b1,~.-I(lo*t))
-anova(b2,type="marginal") 
+summary(b2) 
 
 b3<-update(b2,~.-I(lo^2*t))
-anova(b3,type="marginal") 
+summary(b3) 
 
 b4<-update(b3,~.-I(la*t^2))
-anova(b4,type="marginal") 
+summary(b4) 
 
 fv <- exp(fitted(b4)+solr$off) # note need to add offset
 resid <- solr$egg-fv          # raw residuals
@@ -205,12 +205,13 @@ lines(fl,-2*fl,lty=2)
 
 intervals(b4,which="var-cov")
 
-## 6.7.1 A GAMM for sole eggs
+## 6.7.1 A GAMM for sole eggs, note parametric `a' term removed,
+## as s(t,k=5,by=a) no longer centred (since 1.4-0).
 
 library(mgcv)
 
 bam<-gamm(eggs~te(lo,la,t,bs=c("tp","tp"),k=c(25,5),d=c(2,1))
-          +a+s(t,k=5,by=a)+offset(off),family=quasi(link=log,
+          +s(t,k=5,by=a)+offset(off),family=quasi(link=log,
           variance="mu"),data=solr,random=list(station=~1))
 
 bam$gam

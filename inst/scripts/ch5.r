@@ -65,9 +65,8 @@ lm(log(e^2)~log(fv))
 
 m1<-gam(medFPQ^.25~s(Y,X,k=100),data=brain)
 gam.check(m1)
-gm <- gam.method(gam="perf.magic")
-m2<-gam(medFPQ~s(Y,X,k=100),data=brain,family=Gamma(link=log),
-        method=gm)
+
+m2<-gam(medFPQ~s(Y,X,k=100),data=brain,family=Gamma(link=log),optimizer="perf")
 
 mean(fitted(m1)^4);mean(fitted(m2));mean(brain$medFPQ)
 m2
@@ -76,21 +75,21 @@ vis.gam(m2,plot.type="contour",too.far=0.03,
         color="gray",n.grid=60,zlim=c(-1,2))
 
 ## 5.2.2 Would an additive structure be better?
-
 m3 <- gam(medFPQ~s(Y,k=30)+s(X,k=30),data=brain,
-          family=Gamma(link=log),method=gm)
+          family=Gamma(link=log),optimizer="perf")
+
 m3
 anova(m3,m2,test="F")
 
 m4 <- gam(medFPQ~s(Y,k=30)+s(X,k=30)+s(Y,X,k=100),data=brain,
-      family=Gamma(link=log),method=gm)
+      family=Gamma(link=log),optimizer="perf")
 
 ## 5.2.3 Isotropic or tensor product smooths?
 
 tm<-gam(medFPQ~te(Y,X,k=10),data=brain,family=Gamma(link=log),
-        method=gm)
+        optimizer="perf")
 tm1<-gam(medFPQ~s(Y,k=10,bs="cr")+s(X,bs="cr",k=10),
-         data=brain,family=Gamma(link=log),method=gm)
+         data=brain,family=Gamma(link=log),optimizer="perf")
 
 tm1
 tm
@@ -100,9 +99,9 @@ anova(tm1,tm,test="F")
 brain$Xc <- abs(brain$X - 64.5)
 brain$right <- as.numeric(brain$X<64.5)
 m.sy <- gam(medFPQ~s(Y,Xc,k=100),data=brain,
-            family=Gamma(link=log),method=gm)
+            family=Gamma(link=log),optimizer="perf")
 m.as <- gam(medFPQ~s(Y,Xc,k=100)+s(Y,Xc,k=100,by=right),
-            data=brain,family=Gamma(link=log),method=gm)
+            data=brain,family=Gamma(link=log),optimizer="perf")
 m.sy
 m.as
 
@@ -134,9 +133,9 @@ brain2$sample1 <- c(rep(1,n),rep(0,n))
 brain2$sample0 <- 1 - brain2$sample1
 
 m.same<-gam(medFPQ~s(Y,X,k=100),data=brain2,
-            family=Gamma(link=log),method=gm)
+            family=Gamma(link=log),optimizer="perf")
 m.diff<-gam(medFPQ~s(Y,X,k=100)+s(Y,X,by=sample1,k=100),
-            data=brain2,family=Gamma(link=log),method=gm)
+            data=brain2,family=Gamma(link=log),optimizer="perf")
 
 anova(m.same,m.diff,test="F")
 
@@ -245,14 +244,23 @@ gm1a <- gam(egg.count~s(lon,lat,bs="ts",k=100)+
             s(I(b.depth^.5),bs="ts") + s(temp.20m,bs="ts")+
             offset(log.net.area),data=mack,family=poisson,
             scale=-1,gamma=1.4)
-library(MASS)
+
 gm2<-gam(egg.count ~ s(lon,lat,bs="ts",k=40) +
          s(I(b.depth^.5),bs="ts") + s(c.dist,bs="ts") +
          s(temp.surf,bs="ts") + s(temp.20m,bs="ts") +
          offset(log.net.area),
-         data=mack,family=negative.binomial(1),
-         control=gam.control(maxit=100),gamma=1.4)
+         data=mack,family=negbin(c(.01,100)),
+         control=gam.control(maxit=100),gamma=1.4,optimizer="perf")
 gm2
+
+## alternative, using more recent methods...
+
+gm2a<-gam(egg.count ~ s(lon,lat,bs="ts",k=40) +
+         s(I(b.depth^.5),bs="ts") + s(c.dist,bs="ts") +
+         s(temp.surf,bs="ts") + s(temp.20m,bs="ts") +
+         offset(log.net.area),data=mack,family=negbin(c(.1,10)),
+         control=gam.control(maxit=100),gamma=1.4)
+gm2a
 
 anova(gm1a)
 
