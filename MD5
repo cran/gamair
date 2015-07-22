@@ -1,6 +1,6 @@
-59488315f84399f4b10a403def036387 *DESCRIPTION
+50ee9070e512a00c3daa3c5a1d5bf78f *ChangeLog
+a37ba5916b23466e8cd6e9e514a64503 *DESCRIPTION
 9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
-53fd9acbdadee668f4fe1400f02b1ec6 *changelog
 b0d965a7301997a61883cdc65db16f72 *data/bird.rda
 3ace8c6ca91edf3e15c2b3014db09426 *data/blowfly.rda
 570ac827b52f923ba9056015539c02b1 *data/brain.rda
@@ -31,12 +31,12 @@ c61f811348d08ef66b9cb84ae87e4649 *inst/scripts/ch5.r
 ace3cdf43e3896f59327a674657e35cb *man/bird.Rd
 8c9c89b0762c2bea46ef6c51209b4acb *man/blowfly.Rd
 fa43227229c5de1ee1b76ca1f32d1c4b *man/brain.Rd
-4b364cc41fdb0b4ac96ac3a6408a12df *man/cairo.Rd
+283976f2721664b4a22213563a98c38f *man/cairo.Rd
 187e356003bef5237cf87963575e9316 *man/chicago.Rd
-e2888a560ba3d579ccb7de1a67ae7c99 *man/chl.Rd
-ffd09b730c4f1f5709a54842ed64697e *man/co2s.Rd
+2285c03fe72c6a5eb68fc20648545e6e *man/chl.Rd
+ab11a2c1c764443f84fcf3f4ce31c09b *man/co2s.Rd
 a9ec80919d514d4ada05f5fcf0303626 *man/coast.Rd
-bde456a5b0213c3bdbaced28eea0a62c *man/engine.Rd
+518a8935c7d902a7422cc368f188034f *man/engine.Rd
 ec784df025a56a6adb4b64268729d44a *man/gamair-package.Rd
 43ae511251b627716a9e833f3369d876 *man/harrier.Rd
 058326764a6abd8077a1ba764ddd8764 *man/hubble.Rd

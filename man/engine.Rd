@@ -18,8 +18,9 @@ The columns are:
 \details{ See the source for further details.
 }
  
-\source{ 
-\url{http://www3.bc.sympatico.ca/Volvo_Books/engine3.html}
+\source{
+Originally from... 
+\code{http://www3.bc.sympatico.ca/Volvo_Books/engine3.html}
 }
 
 \keyword{data}

@@ -25,7 +25,7 @@ a bottle sample.}
 
 
 \source{
-\url{http://seawifs.gsfc.nasa.gov/SEAWIFS}
+\url{http://oceancolor.gsfc.nasa.gov/SeaWiFS/}
 
 and the World Ocean Database.
 }

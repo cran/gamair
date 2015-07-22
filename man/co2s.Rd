@@ -18,7 +18,7 @@ A data frame with 3 columns and 507 rows. The columns are:
 
 
 \source{
-\url{http://cdiac.esd.ornl.gov/trends/co2/sio-spl.htm}
+\url{http://cdiac.esd.ornl.gov/trends/co2/}
 }
 
 \references{

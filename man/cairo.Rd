@@ -20,7 +20,7 @@ A data frame with 6 columns and 3780 rows. The columns are:
 
 
 \source{
-\url{http://www.engr.udayton.edu/weather/citylistWorld.htm}
+\url{http://academic.udayton.edu/kissock/http/Weather/citylistWorld.htm}
 }
 
 \references{
