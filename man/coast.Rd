@@ -20,8 +20,8 @@ plot the coastline. The original data come from the NOAA www site given below,
 but have been substantially thinned, to a much lower resultion than the source.
 }
 
-\references{ 
-http://rimmer.ngdc.noaa.gov/coast/
+\references{ Originally from...
+\code{http://rimmer.ngdc.noaa.gov/coast/}
 }
 
 \author{ Simon Wood.

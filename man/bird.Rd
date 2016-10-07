@@ -10,9 +10,10 @@ data(bird)
 \format{
 A data frame with 6 columns and 25100 rows. Each row refers to one 2km by 2km
 square (tetrad). The columns are:
-\itemize{
+\describe{
 \item{QUADRICULA}{An identifier for the 10km by 10km square that this tetrad
 belongs to.}
+\item{TET}{Which tetrad the observation is from.}
 \item{crestlark}{Were crested lark (or possibly thekla lark!) found (1), not
 found (0) breading in this tetrad, or was the tetrad not visited (\code{NA}). }
 \item{linnet}{As \code{crestlark}, but for linnet.}

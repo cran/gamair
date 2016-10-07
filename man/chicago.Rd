@@ -33,7 +33,6 @@ Peng, R.D. and Welty, L.J. (2004) The NMMAPSdata package. R News 4(2).
 
 Wood, S.N. (2006) Generalized Additive Models: An Introduction with R
 
-\url{http://www.ihapss.jhsph.edu/data/NMMAPS/R/} 
 }
 
 \keyword{data}

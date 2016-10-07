@@ -1,0 +1,18 @@
+1.0-0
+
+* Data sets added for second edition of book.
+
+* Help files adde containing second edition code, by chapter, and second 
+  edition exercise solutions, by chapter. 
+
+0.0-9
+
+* 'changelog' changed to 'ChangeLog'
+
+* some broken weblinks updated
+
+0.0-7
+
+* datasets saved with default compression.
+
+
