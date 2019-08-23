@@ -11,7 +11,7 @@ data(aral)
 data(aral.bnd)
 }
 %- maybe also `usage' for other objects documented here.
-\format{The \code{swer} data frame has the following columns
+\format{The \code{aral} data frame has the following columns
  \describe{
 \item{lon}{longitude of pixel or boundary vertex.}
 \item{lat}{latitude of pixel or boundary vertex.}
@@ -26,7 +26,7 @@ data(aral.bnd)
 }
 
 \source{
-\url{http://seawifs.gsfc.nasa.gov/}
+\url{https://seawifs.gsfc.nasa.gov/}
 }
 
 \examples{

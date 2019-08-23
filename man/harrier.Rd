@@ -11,7 +11,7 @@ data(harrier)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 2 columns and 37 rows. The columns are:
-\itemize{
+\describe{
 \item{Grouse.Density}{Density of Grouse per square kilometre.}
 \item{Consumption.Rate}{Number of Grouse consumed per Hen Harrier per day.}
 }}
@@ -28,7 +28,7 @@ predator. Web preprint
 
 \references{
 
-Wood, S.N. (2006) Generalized Additive Models: An Introduction with R. CRC
+Wood, S.N. (2006, 2017) Generalized Additive Models: An Introduction with R. CRC
 
 }
 

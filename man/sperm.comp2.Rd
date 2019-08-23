@@ -11,7 +11,7 @@ data(sperm.comp2)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 10 columns and 24 rows. The columns are:
-\itemize{
+\describe{
  \item{pair}{ an identifier for the couple. These labels correspond to those
  given in \code{\link{sperm.comp1}}.}
 \item{n}{ the number of copulations over which the average sperm count has

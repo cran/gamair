@@ -12,7 +12,7 @@ data(ipo)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 6 columns and 156 rows. The columns are:
-\itemize{
+\describe{
 \item{n.ipo}{number of initial pubilc offerings each month.}
 \item{ir}{the average initial return (volume weighted): this is the percentage
 difference between the offer proce of shares and the price after the first day
@@ -21,7 +21,7 @@ of trading.}
 proposed at first filing of the IPO, and the eventual offer price.}
 \item{reg.t}{the average time between filing and offer.}
 \item{t}{time, in months.}
-\item{n.ipo}{month of the year (1 = January).}
+\item{month}{month of the year (1 = January).}
 }}
 
 \source{ 
@@ -35,7 +35,7 @@ proposed at first filing of the IPO, and the eventual offer price.}
 Lowry, M. and G.W. Schwert (2002) IPO market cycles: Bubbles or sequential
 learning? The Journal of Finance 67(3), 1171-1198
 
-Wood, S.N. (2006) Generalized Additive Models: An Introduction with R. CRC
+Wood, S.N. (2006, 2017) Generalized Additive Models: An Introduction with R. CRC
 
 }
 

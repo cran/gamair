@@ -267,6 +267,7 @@ AIC(g1$lme,g2$lme,g3$lme)
 
 ## Q.11
 data(med); head(med) ## look at data
+data(coast)
 
 ## initial plots...
 plot(med$lo,med$la,cex=0.2+med$count^.5/10,col="grey",

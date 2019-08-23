@@ -26,7 +26,7 @@ Klein and Moeschberger (2003).
 
 Klein and Moeschberger (2003) Survival Analysis: techniques for censored and truncated data.
 
-Wood, S.N. (2006) Generalized Additive Models: An Introduction with R
+Wood, S.N. (2017) Generalized Additive Models: An Introduction with R
 
 }
 

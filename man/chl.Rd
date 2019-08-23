@@ -13,7 +13,7 @@ data(chl)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 6 columns and 13840 rows. The columns are:
-\itemize{
+\describe{
 \item{lon}{longitude}
 \item{lat}{latitude}
 \item{jul.day}{Julian day (i.e. day of year starting at Jan 1st.)}
@@ -25,14 +25,14 @@ a bottle sample.}
 
 
 \source{
-\url{http://oceancolor.gsfc.nasa.gov/SeaWiFS/}
+\url{https://oceancolor.gsfc.nasa.gov/SeaWiFS/}
 
 and the World Ocean Database.
 }
 
 \references{
 
-Wood, S.N. (2006) Generalized Additive Models: An Introduction with R. CRC
+Wood, S.N. (2006, 2017) Generalized Additive Models: An Introduction with R. CRC
 
 }
 

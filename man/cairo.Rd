@@ -9,7 +9,7 @@ data(cairo)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 6 columns and 3780 rows. The columns are:
-\itemize{
+\describe{
 \item{month}{month of year from 1 to 12.}
 \item{day.of.month}{day of month, from 1 to 31.}
 \item{year}{Year, starting 1995.}
@@ -25,7 +25,7 @@ A data frame with 6 columns and 3780 rows. The columns are:
 
 \references{
 
-Wood, S.N. (2006) Generalized Additive Models: An Introduction with R
+Wood, S.N. (2006, 2017) Generalized Additive Models: An Introduction with R
 
 }
 

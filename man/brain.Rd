@@ -13,10 +13,10 @@ data(brain)
 \format{
 A data frame with 5 columns and 1567 rows. Each row refers to one `voxel' of
 the image. The columns are:
-\itemize{
- \item{X}{ voxel position on horizontal axis.}
-\item{Y}{ voxel position on vertical axis.}
-\item{medFPQ}{ median of three replicate `Fundamental 
+\describe{
+ \item{X}{voxel position on horizontal axis.}
+\item{Y}{voxel position on vertical axis.}
+\item{medFPQ}{median of three replicate `Fundamental 
 Power Quotient' values at the voxel: this is the main measurement of brain 
 activivity.}
 \item{region}{code indicating which of several regions of the brain the voxel

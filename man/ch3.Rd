@@ -201,7 +201,14 @@ lines(fl,-2*fl,lty=2)
 intervals(b4,which="var-cov")
 
 ## 3.5.2
-b <- gam(form,family=quasi(link=log,variance="mu"),data=solr,
+
+form5 <- eggs ~ offset(off)+lo+la+t+I(lo*la)+I(lo^2)+
+            I(la^2)+I(t^2)+I(lo*t)+I(la*t)+I(lo^3)+I(la^3)+
+            I(t^3)+I(lo^2*la)+I(lo*la^2)+
+            I(la^2*t)+I(lo*t^2)+ # end log spawn
+            a +I(a*t)+I(t^2*a) + s(station,bs="re")
+
+b <- gam(form5,family=quasi(link=log,variance="mu"),data=solr,
          method="REML")
 
 ## 3.5.3

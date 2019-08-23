@@ -10,7 +10,7 @@ data(blowfly)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 2 columns and 180 rows. The columns are:
-\itemize{
+\describe{
 \item{pop}{Counts (!) of the population of adult Blowflies in one of the experiments.}
 \item{day}{Day of experiment.}
 }}
@@ -26,7 +26,7 @@ their evolutionary significance. Australian Journal of Zoology 2, 1-8.
 Nicholson, A.J. (1954b) An outline of the dynamics of animal populations. 
 Australian Journal of Zoology 2, 9-65.
 
-Wood, S.N. (2006) Generalized Additive Models: An Introduction with R
+Wood, S.N. (2006, 2017) Generalized Additive Models: An Introduction with R
 
 }
 

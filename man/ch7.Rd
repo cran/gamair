@@ -225,6 +225,7 @@ gm2 <- gam(egg.count ~ s(lon,lat,k=100) + s(I(b.depth^.5)) +
 gm2
 
 ## 7.5.2 model predictions
+par(mfrow=c(1,3))
 data(mackp); data(coast)
 mackp$log.net.area <- rep(0,nrow(mackp))
 lon <- seq(-15,-1,1/4); lat <- seq(44,58,1/4)

@@ -1,18 +1,18 @@
 \name{stomata}
 \alias{stomata}
 %- Also NEED an `\alias' for EACH other topic documented here.
-\title{Stomatal area and C02 }
+\title{Stomatal area and CO2 }
 \description{Fake data on average stomatal area for 6 trees grown under 
-one of two C02 concentrations}
+one of two CO2 concentrations}
 \usage{
 data(stomata)
 }
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 3 columns and 24 rows. The columns are:
-\itemize{
+\describe{
  \item{area}{mean stomatal area.}
-\item{C02}{label for which C02 treatment the measurement relates to.}
+\item{CO2}{label for which CO2 treatment the measurement relates to.}
 \item{tree}{label for individual tree.}
 }}
 
@@ -23,7 +23,7 @@ the source book.
 \source{The reference.}
 
 \references{
-Wood, S.N. (2006) Generalized Additive Models: An Introduction with R. CRC
+Wood, S.N. (2006, 2017) Generalized Additive Models: An Introduction with R. CRC
 
 }
 

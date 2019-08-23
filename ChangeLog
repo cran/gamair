@@ -1,3 +1,13 @@
+1.0-2
+
+* various docmentation fixes
+
+* datalist fix
+
+1.0-1
+
+* Fix in ch3 sole egg gam call to include random effect
+	
 1.0-0
 
 * Data sets added for second edition of book.

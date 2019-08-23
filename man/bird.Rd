@@ -35,7 +35,7 @@ The Atlas of the Portuguese Breeding Birds.
 
 \references{
 
-Wood, S.N. (2006) Generalized Additive Models: An Introduction with R
+Wood, S.N. (2006, 2017) Generalized Additive Models: An Introduction with R
 
 }
 

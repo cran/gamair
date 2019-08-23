@@ -11,7 +11,7 @@ data(wine)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 7 columns and 47 rows. The columns are:
-\itemize{
+\describe{
 \item{year}{year of production}
 \item{price}{average price of the wines as a percentage of the 1961 price.}
 \item{h.rain}{mm of rain in the harvest month.}
@@ -29,7 +29,7 @@ A data frame with 7 columns and 47 rows. The columns are:
 
 \references{
 
-Wood, S.N. (2006) Generalized Additive Models: An Introduction with R. CRC
+Wood, S.N. (2006, 2017) Generalized Additive Models: An Introduction with R. CRC
 
 }
 

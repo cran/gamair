@@ -14,7 +14,7 @@ data(sole)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 7 columns and 1575 rows. The columns are:
-\itemize{
+\describe{
 \item{la}{latitude of sampling station}
 \item{lo}{longitude of sampling station}
 \item{t}{time of sampling station: actually time of midpoint of the cruise on
@@ -44,7 +44,7 @@ Horwood, J. and M. Greer Walker (1990) Determinacy of fecundity in Sole (solea
 solea) from the Bristol Channel. Journal of the Marine Biology Association of
 the United Kingdom. 70, 803-813.
 
-Wood (2006) Generalized Additive Models: An Introduction with R. CRC
+Wood (2006, 2017) Generalized Additive Models: An Introduction with R. CRC
 
 }
 

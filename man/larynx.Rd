@@ -1,5 +1,5 @@
-\name{larynx}
-\alias{larynx}
+\name{Larynx}
+\alias{Larynx}
 \alias{german.polys}
 %- Also NEED an `\alias' for EACH other topic documented here.
 \title{Cancer of the larynx in Germany}

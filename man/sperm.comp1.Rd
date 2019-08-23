@@ -11,7 +11,7 @@ data(sperm.comp1)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 4 columns and 15 rows. The columns are:
-\itemize{
+\describe{
  \item{subject}{ An identifier for the subject/couple.}
 \item{time.ipc}{ Time since last inter-pair copulation, in hours.}
 \item{prop.partner}{ Proportion of \code{time.ipc} that the couple had spent

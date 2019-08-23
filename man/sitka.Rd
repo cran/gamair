@@ -10,7 +10,7 @@ data(sitka)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 1027 rows and 5 columns columns:
-\itemize{
+\describe{
 \item{id.num}{identity of the tree: 1...79.}
 \item{order}{time order ranking within each tree.}
 \item{days}{since 1st January, 1988.}
@@ -19,7 +19,7 @@ A data frame with 1027 rows and 5 columns columns:
 }
 }
 
-\details{ The data were analysed in Crainiceanu CM, Ruppert D, Wand MP (2005) using WinBUGS, and in Wood (in press) using auto-generated JAGS code. 
+\details{ The data were analysed in Crainiceanu CM, Ruppert D, Wand MP (2005) using WinBUGS, and in Wood (2016) using auto-generated JAGS code. 
 }
 
 \source{
@@ -30,7 +30,7 @@ Diggle, P.J, Heagery, P., Liang, K.-Y. and Zeger, S.L. (2002) Analysis of Longit
 }
 
 \references{
-Wood SN (in press) "Just Another Gibbs Additive Modeller: Interfacing JAGS and mgcv" Journal of Statistical Software.
+Wood SN (2016) "Just Another Gibbs Additive Modeller: Interfacing JAGS and mgcv" Journal of Statistical Software 75
 
 Crainiceanu C.M., Ruppert D. and Wand M.P. (2005). "Bayesian Analysis for Penalized Spline Regression Using WinBUGS." Journal of Statistical Software, 14(14).
 }

@@ -70,7 +70,7 @@ Maintainer: Simon Wood <simon@r-project.org>
 
 }
 \references{
-Wood, S.N. (2006) \emph{Generalized Additive Models: An Introduction with R}, CRC
+Wood, S.N. (2006,2017) \emph{Generalized Additive Models: An Introduction with R}, CRC
 }
 \keyword{ package }
 \keyword{data}

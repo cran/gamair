@@ -10,7 +10,7 @@ data(chicago)
 \format{
 A data frame with 7 columns and 5114 rows. Each row refers to one day.
 The columns are:
-\itemize{
+\describe{
 \item{death}{ total deaths (per day).}
 \item{pm10median}{median particles in 2.5-10 per cubic m}
 \item{pm25median}{median particles < 2.5 mg per cubic m (more dangerous).}
@@ -31,7 +31,7 @@ Roger D. Peng, Leah J. Welty and Aiden McDermott. R package NMMAPSdata.
 \references{
 Peng, R.D. and Welty, L.J. (2004) The NMMAPSdata package. R News 4(2).
 
-Wood, S.N. (2006) Generalized Additive Models: An Introduction with R
+Wood, S.N. (2006, 2017) Generalized Additive Models: An Introduction with R
 
 }
 

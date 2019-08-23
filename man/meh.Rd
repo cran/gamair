@@ -2,7 +2,7 @@
 \alias{meh}
 \alias{med}
 %- Also NEED an `\alias' for EACH other topic documented here.
-\title{Data from 1010 horse mackerel and mackerel egg survey}
+\title{Data from 2010 horse mackerel and mackerel egg survey}
 \description{ The data relate to the distribution of horse mackerel (\code{meh}, Trachurus trachurus) eggs and mackerel (\code{med}, Scomber scombrus) eggs and were collected as part of the 2010 mackerel survey aimed at assessing the mackerel spawning stock biomass using the daily egg production method. }
 
 \usage{

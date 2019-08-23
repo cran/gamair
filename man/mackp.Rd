@@ -11,7 +11,7 @@ data(mackp)
 \format{
  A data frame with 5 columns. Each row corresponds to one spatial location within the survey area. 
  The columns are as follows:
-\itemize{
+\describe{
 \item{lon}{Longitude of the gridpoint in degrees east}
 
 \item{lat}{Latitude of the gridpoint in degrees north.}

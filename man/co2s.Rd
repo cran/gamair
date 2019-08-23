@@ -10,7 +10,7 @@ data(co2s)
 %- maybe also `usage' for other objects documented here.
 \format{
 A data frame with 3 columns and 507 rows. The columns are:
-\itemize{
+\describe{
 \item{co2}{atmospheric CO2 concentration in parts per million}
 \item{c.month}{cumulative number of months since Jan 1957}
 \item{month}{month of year}
@@ -28,7 +28,7 @@ SIO air sampling network. In Trends: A Compedium of Data on Global
 Change. Carbon Dioxide Analyis Center, Oak Ridge National Laboratory,
 U.S. Department of Energy, Oak Ridge Tenn., USA
 
-Wood, S.N. (2006) Generalized Additive Models: An Introduction with R. CRC
+Wood, S.N. (2006, 2017) Generalized Additive Models: An Introduction with R. CRC
 
 }
 

@@ -10,7 +10,7 @@ data(engine)
 \format{
 A data frame with 2 columns and 19 rows. Each row refers to one engine model.
 The columns are:
-\itemize{
+\describe{
 \item{wear}{an index of engine wear rate.}
 \item{size}{cylinder capacity in litres.}
 }}

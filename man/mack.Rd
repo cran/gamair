@@ -10,7 +10,7 @@ data(mack)
 %- maybe also `usage' for other objects documented here.
 \format{ A data frame with 16 columns. Each row corresponds to one sample of 
 eggs. 
- \itemize{
+ \describe{
 \item{egg.count}{The number of stage I eggs in this sample.}
 
 \item{egg.dens}{The number of stage I eggs per square metre of sea surface, produced per day. This is calculated from \code{egg.count} and other information about sampling net size, and egg stage duration.}

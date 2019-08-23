@@ -10,7 +10,7 @@ data(coast)
 }
 %- maybe also `usage' for other objects documented here.
 \format{ A data frame with 2 columns.
-\itemize{ 
+\describe{ 
 \item{lon}{Longitude in degrees East for points used to define the coast.}
 
 \item{lat}{Latitude in degrees North for points used to define the coast.}
